@@ -1,7 +1,7 @@
 <?php
 
-use App\Http\Controllers\DataBaruController;
 use App\Http\Controllers\ProfileController;
+use App\Http\Controllers\DataController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/dashboard', function () {
@@ -13,7 +13,8 @@ Route::middleware('auth')->group(function () {
     Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.update');
     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
 
-    Route::get('/admin/buatdata', [DataBaruController::class, 'index'])->name('buatdata.create');
+    Route::get('/form', [DataController::class, 'showForm'])->name('showForm');
+    Route::post('/print', [DataController::class, 'printData']);
 });
 
 require __DIR__.'/auth.php';

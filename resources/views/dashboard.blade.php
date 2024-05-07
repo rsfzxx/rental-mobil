@@ -10,7 +10,7 @@
                 </button>
             </div>
             <div class="col-md-2 text-center">
-                <a href="{{ route('buatdata.create') }}">
+                <a href="{{ route('showForm') }}">
                     <button class="btn btn-success btn-lg">
                         <i class="bi bi-plus-circle-fill"></i>&nbsp;  Buat Baru
                     </button>
