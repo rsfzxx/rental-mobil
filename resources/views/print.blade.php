@@ -78,6 +78,12 @@
             font-size : 0.35rem;
         }
 
+        .smalllast {
+            margin-top : 7px;
+            font-size : 0.6rem;
+            width: 80%;
+        }
+
         .payment-box {
             width: 10px;
             height: 10px;
@@ -168,6 +174,26 @@
         .textlast{
             font-size:10px;
             padding:5px;
+        }
+
+        .itemboxlast{
+            margin: 3px;
+            margin-top:5px;
+            margin-left:10px;
+            font-size:1rem;
+            font-weight: bold;
+            letter-spacing: -0.5px;
+        }
+
+        .boxmobil{
+            width: 10px;
+            margin-right:1px;
+            height: 10px;
+            display: inline-block;
+            border: 1px solid black;
+            vertical-align: middle;
+            margin-top: 5px;
+            margin-left:15px;
         }
 
     </style>
@@ -272,10 +298,23 @@
         <div class="row">
             <div class="column" style="width: 50%; border-top: 1px solid black;">
                 <div class="itemlast" style="height: 50%;">
-                    <div class="textlast" style="padding:5px; font-size:15px;"> INSPEKSI MOBIL</div>
+                    <div class="textlast" style="padding:10px; font-size:20px;"> INSPEKSI MOBIL</div>
+                    <div class="itemboxlast"><div class="boxmobil"></div> DONGKRAK</div>
+                    <div class="itemboxlast"><div class="boxmobil"></div> TOOL KIT</div>
+                    <div class="itemboxlast"><div class="boxmobil"></div> BAN CADANGAN</div>
+                    <div class="itemboxlast"><div class="boxmobil"></div> STNK</div>
+                    <div class="itemboxlast"><div class="boxmobil"></div> CHARGER HP</div>
+                    <div class="itemboxlast"><div class="boxmobil"></div> UANG RP ....................................................</div>
                 </div>
                 <div class="itemlast" style="height: 50%;">
-
+                    <div class="column" style="width: 100%; margin-top:10px; margin-left:10px;">
+                        <div class="textlast" style="padding:10px; font-size:15px;"> BARANG BERHARGA LAIN NYA</div>
+                        <div class="tambahan"><div class="boxservis"></div>.........................................................................................</div>
+                        <div class="tambahan"><div class="boxservis"></div>.........................................................................................</div>
+                        <div class="tambahan"><div class="boxservis"></div>.........................................................................................</div>
+                        <div class="tambahan"><div class="boxservis"></div>.........................................................................................</div>
+                        <div class="smalllast" style="padding-left:10px;">*Jangan tinggalkan barang berharga di dalam mobil, kami tidak bertanggung jawab apabila terdapat kehilangan barang berharga anda di dalam mobil</div>
+                    </div>
                 </div>
             </div>
             <div class="column" style="width: 50%; border-left: 1px solid black; border-top: 1px solid black;">
