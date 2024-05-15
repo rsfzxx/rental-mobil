@@ -124,7 +124,7 @@
         }
 
         .tambahan{
-            font-size:0.7rem;
+            font-size:0.8rem;
         }
         .box{
             width: 7px;
@@ -272,20 +272,69 @@
             <div class="servis">
                 <div class="row" style="margin-bottom:10px; text-align:left; font-size:20px; width: 50%;">SERVIS TAMBAHAN</div>
                 <div class="column" style="width: 50%;">
-                    <div class="tambahan"><div class="boxservis"></div>.......................................................................................</div>
-                    <div class="tambahan"><div class="boxservis"></div>.......................................................................................</div>
-                    <div class="tambahan"><div class="boxservis"></div>.......................................................................................</div>
-                    <div class="tambahan"><div class="boxservis"></div>.......................................................................................</div>
-                    <div class="tambahan"><div class="boxservis"></div>.......................................................................................</div>
-                    <div class="tambahan"><div class="boxservis"></div>.......................................................................................</div>
+                    @if(isset($servis_tambahan1) && !empty($servis_tambahan1))
+                        <div class="tambahan"><div class="boxservis"></div>{{ $servis_tambahan1 }}</div>
+                    @else
+                        <div class="tambahan"><div class="boxservis"></div>.......................................................................................</div>
+                    @endif
+                    @if(isset($servis_tambahan2) && !empty($servis_tambahan2))
+                        <div class="tambahan"><div class="boxservis"></div>{{ $servis_tambahan2 }}</div>
+                    @else
+                        <div class="tambahan"><div class="boxservis"></div>.......................................................................................</div>
+                    @endif
+                    @if(isset($servis_tambahan3) && !empty($servis_tambahan3))
+                        <div class="tambahan"><div class="boxservis"></div>{{ $servis_tambahan3 }}</div>
+                    @else
+                        <div class="tambahan"><div class="boxservis"></div>.......................................................................................</div>
+                    @endif
+                    @if(isset($servis_tambahan4) && !empty($servis_tambahan4))
+                        <div class="tambahan"><div class="boxservis"></div>{{ $servis_tambahan4 }}</div>
+                    @else
+                        <div class="tambahan"><div class="boxservis"></div>.......................................................................................</div>
+                    @endif
+                    @if(isset($servis_tambahan5) && !empty($servis_tambahan5))
+                        <div class="tambahan"><div class="boxservis"></div>{{ $servis_tambahan5 }}</div>
+                    @else
+                        <div class="tambahan"><div class="boxservis"></div>.......................................................................................</div>
+                    @endif
+                    @if(isset($servis_tambahan6) && !empty($servis_tambahan6))
+                        <div class="tambahan"><div class="boxservis"></div>{{ $servis_tambahan6 }}</div>
+                    @else
+                        <div class="tambahan"><div class="boxservis"></div>.......................................................................................</div>
+                    @endif
                 </div>
                 <div class="column" style="width: 50%;">
-                    <div class="tambahan"><div class="boxservis"></div>.......................................................................................</div>
-                    <div class="tambahan"><div class="boxservis"></div>.......................................................................................</div>
-                    <div class="tambahan"><div class="boxservis"></div>.......................................................................................</div>
-                    <div class="tambahan"><div class="boxservis"></div>.......................................................................................</div>
-                    <div class="tambahan"><div class="boxservis"></div>.......................................................................................</div>
-                    <div class="tambahan"><div class="boxservis"></div>.......................................................................................</div>
+                    @if(isset($servis_tambahan7) && !empty($servis_tambahan7))
+                        <div class="tambahan"><div class="boxservis"></div>{{ $servis_tambahan7 }}</div>
+                    @else
+                        <div class="tambahan"><div class="boxservis"></div>.......................................................................................</div>
+                    @endif
+
+                    @if(isset($servis_tambahan8) && !empty($servis_tambahan8))
+                        <div class="tambahan"><div class="boxservis"></div>{{ $servis_tambahan8 }}</div>
+                    @else
+                        <div class="tambahan"><div class="boxservis"></div>.......................................................................................</div>
+                    @endif
+                    @if(isset($servis_tambahan9) && !empty($servis_tambahan9))
+                        <div class="tambahan"><div class="boxservis"></div>{{ $servis_tambahan9 }}</div>
+                    @else
+                        <div class="tambahan"><div class="boxservis"></div>.......................................................................................</div>
+                    @endif
+                    @if(isset($servis_tambahan10) && !empty($servis_tambahan10))
+                        <div class="tambahan"><div class="boxservis"></div>{{ $servis_tambahan10 }}</div>
+                    @else
+                        <div class="tambahan"><div class="boxservis"></div>.......................................................................................</div>
+                    @endif
+                    @if(isset($servis_tambahan11) && !empty($servis_tambahan11))
+                        <div class="tambahan"><div class="boxservis"></div>{{ $servis_tambahan11 }}</div>
+                    @else
+                        <div class="tambahan"><div class="boxservis"></div>.......................................................................................</div>
+                    @endif
+                    @if(isset($servis_tambahan12) && !empty($servis_tambahan12))
+                        <div class="tambahan"><div class="boxservis"></div>{{ $servis_tambahan12 }}</div>
+                    @else
+                        <div class="tambahan"><div class="boxservis"></div>.......................................................................................</div>
+                    @endif
                 </div>
             </div>
         </div>

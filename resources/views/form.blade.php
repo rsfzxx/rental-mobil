@@ -65,6 +65,58 @@
                         </div>
                     </div>
                 </div>
+                <div class="col-md-6">
+                    <div class="form-group col-md-12 mb-3">
+                        <label for="jam_selesai">Servis Tambahan 1</label>
+                        <input type="text" class="form-control" id="servis_tambahan1" name="servis_tambahan1">
+                    </div>
+                    <div class="form-group col-md-12 mb-3">
+                        <label for="jam_selesai">Servis Tambahan 2</label>
+                        <input type="text" class="form-control" id="servis_tambahan2" name="servis_tambahan2">
+                    </div>
+                    <div class="form-group col-md-12 mb-3">
+                        <label for="jam_selesai">Servis Tambahan 3</label>
+                        <input type="text" class="form-control" id="servis_tambahan3" name="servis_tambahan3">
+                    </div>
+                    <div class="form-group col-md-12 mb-3">
+                        <label for="jam_selesai">Servis Tambahan 4</label>
+                        <input type="text" class="form-control" id="servis_tambahan4" name="servis_tambahan4">
+                    </div>
+                    <div class="form-group col-md-12 mb-3">
+                        <label for="jam_selesai">Servis Tambahan 5</label>
+                        <input type="text" class="form-control" id="servis_tambahan5" name="servis_tambahan5">
+                    </div>
+                    <div class="form-group col-md-12 mb-3">
+                        <label for="jam_selesai">Servis Tambahan 6</label>
+                        <input type="text" class="form-control" id="servis_tambahan6" name="servis_tambahan6">
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group col-md-12 mb-3">
+                        <label for="jam_selesai">Servis Tambahan 7</label>
+                        <input type="text" class="form-control" id="servis_tambahan7" name="servis_tambahan7">
+                    </div>
+                    <div class="form-group col-md-12 mb-3">
+                        <label for="jam_selesai">Servis Tambahan 8</label>
+                        <input type="text" class="form-control" id="servis_tambahan8" name="servis_tambahan8">
+                    </div>
+                    <div class="form-group col-md-12 mb-3">
+                        <label for="jam_selesai">Servis Tambahan 9</label>
+                        <input type="text" class="form-control" id="servis_tambahan9" name="servis_tambahan9">
+                    </div>
+                    <div class="form-group col-md-12 mb-3">
+                        <label for="jam_selesai">Servis Tambahan 10</label>
+                        <input type="text" class="form-control" id="servis_tambahan10" name="servis_tambahan10">
+                    </div>
+                    <div class="form-group col-md-12 mb-3">
+                        <label for="jam_selesai">Servis Tambahan 11</label>
+                        <input type="text" class="form-control" id="servis_tambahan11" name="servis_tambahan11">
+                    </div>
+                    <div class="form-group col-md-12 mb-3">
+                        <label for="jam_selesai">Servis Tambahan 12</label>
+                        <input type="text" class="form-control" id="servis_tambahan12" name="servis_tambahan12">
+                    </div>
+                </div>
             </div>
             <button type="submit" class="btn btn-primary">Submit</button>
         </form>

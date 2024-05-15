@@ -25,7 +25,20 @@ class DataController extends Controller
             'km_masuk' => $request->input('km_masuk'),
             'mekanik' => $request->input('mekanik'),
             'jam_masuk' => $request->input('jam_masuk'),
-            'jam_selesai' => $request->input('jam_selesai')
+            'jam_selesai' => $request->input('jam_selesai'),
+            'servis_tambahan1' => $request->input('servis_tambahan1'),
+            'servis_tambahan2' => $request->input('servis_tambahan2'),
+            'servis_tambahan3' => $request->input('servis_tambahan3'),
+            'servis_tambahan4' => $request->input('servis_tambahan4'),
+            'servis_tambahan5' => $request->input('servis_tambahan5'),
+            'servis_tambahan6' => $request->input('servis_tambahan6'),
+
+            'servis_tambahan7' => $request->input('servis_tambahan7'),
+            'servis_tambahan8' => $request->input('servis_tambahan8'),
+            'servis_tambahan9' => $request->input('servis_tambahan9'),
+            'servis_tambahan10' => $request->input('servis_tambahan10'),
+            'servis_tambahan11' => $request->input('servis_tambahan11'),
+            'servis_tambahan12' => $request->input('servis_tambahan12')
         ];
 
         $pdf = PDF::loadView('print', $data);
